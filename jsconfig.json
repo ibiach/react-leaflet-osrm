@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@config/*": ["./src/config/*"],
+      "@store/*": ["./src/store/*"],
+      "@services/*": ["./src/services/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@components/*": ["./src/components/*"]
+    }
+  },
+  "exclude": ["node_modules"],
+  "include": ["**/*.js", "**/*.jsx"]
+}
